@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="navbar">
+        <a>Home</a>
+        <a>About</a>
+        <a>Contact</a>
+    </div>
+
+    <script>
+        window.addEventListener('scroll', function() {
+    const navbar = document.getElementById('navbar');
+    var scrollPosition = window.scrollY;
+
+            if (scrollPosition > 50) {
+                navbar.style.backgroundColor = 'purple'; 
+             } else {
+             navbar.style.backgroundColor = 'rgb(122, 120, 120)';
+                 }
+         });
+    </script>
+</body>
+</html>

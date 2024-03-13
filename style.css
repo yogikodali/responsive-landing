@@ -1,0 +1,25 @@
+body{
+    margin: 0%;
+    height: 200vh;
+    background-color: black;
+}
+#navbar{
+ background-color: rgb(122, 120, 120);
+ color: white;
+ height: 50px;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ position: sticky;
+ top: 0%;
+ 
+}
+a{
+    padding: 20px;
+    font-weight: bolder;
+    margin-left: 300px;
+    font-size: 20px;
+}
+a:hover{
+    color: rgb(236, 58, 13);
+}
